@@ -1,7 +1,11 @@
-import React from 'react'
+  export const Letters = (props) =>{
 
-export const Header = () => {
-  return (
-    <div><h1>hello</h1></div>
-  )
-}
+  return(
+    
+      <h1>
+        i m from {props.name } component
+      </h1>
+  
+  );
+};
+export default Letters;
